@@ -6,8 +6,6 @@ function App() {
 
   let color = (count > 0) ? "green" : (count < 0) ? "red" : "black";
 
-  let a = 2;
-
   const increment = () => setCount(count + 1);
   const decrement = () => setCount(count - 1);
   const resetCount = () => setCount(0);
